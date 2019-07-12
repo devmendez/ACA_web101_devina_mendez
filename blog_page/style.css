@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(10, 182, 67);
+    
+}
+
+#container {
+    background-color: white; 
+    width: 50%; 
+    margin: auto;
+    text-align: center;
+    color: blue; 
+    font-family: cursive; 
+    font-weight: bold; 
+
+
+}
+
+h1 {
+    color: crimson;
+}
