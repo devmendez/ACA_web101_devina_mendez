@@ -1,0 +1,17 @@
+body {
+    font-style: inherit; 
+
+}
+
+    header{
+        text-align: center;
+        padding: 20px;
+        line-height: 0.7;
+    
+    }
+
+    h3{
+        background-color: rgb(186, 183, 189);
+        color:blue;
+        padding: 20px;
+    }
