@@ -1,0 +1,42 @@
+body{
+    width:850px;
+    margin: 0 auto;
+}
+
+main{
+    height: 450px;
+    background-image: url("../img/nasa.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 40px;  
+    font-family: 'Roboto', sans-serif;
+}
+
+    section{
+        display: flex;
+        height: 324px;
+        justify-content: space-between;
+        margin: 20px;
+    }
+        article{
+            width: 270px;
+            background-color: rgb(224, 222, 222);
+            line-height: 1.8em;
+            text-align: start;
+            font-size: 15px;
+        }
+    ul{
+        list-style-type: none;
+        padding: 0px 30px;
+            
+    }
+
+    h1{
+        padding: 150px 0;
+    }    
+    h3{
+        margin: 30px;
+    
+    }
+    
