@@ -38,24 +38,23 @@ header {
     grid-area: footer;
   }
   
-  
   .banner {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 2fr);
-    grid-gap: 0.2em;
+    display: flex;
+    flex-flow: column;
+  
+    
   }
   
-  .banner div {
-    border: white 1px solid;
+  .banner article {
+    border: black 2px solid;
     padding: 1em;
   }
   
-  .banner div:nth-child(even) {
+  .banner div:first-child {
     background-color: rgb(45, 153, 224);
   }
   
-  .banner div:nth-child(odd) {
+  .banner div:nth-child(2,3,4,5) {
     background-color: rgb(45, 150, 18);
   }
   
