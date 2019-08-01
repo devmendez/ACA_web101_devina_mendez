@@ -5,7 +5,7 @@ body{
 
 main{
     height: 450px;
-    background-image: url("../img/nasa.jpg");
+    background-image: url("../src/nasa.jpg");
     background-size: cover;
     color: white;
     text-align: center;
