@@ -1,0 +1,68 @@
+header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 960px;
+}
+
+a:hover {
+  color: rgb(18, 187, 238);
+}
+a {
+  display: inline-block;
+  padding: 0px 10px;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  text-decoration-style: none;
+}
+
+main {
+  background-image: url("img/the-beacon.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.beacon div h2 {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  list-style: none;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.footer {
+  background: black;
+  margin: 0;
+  padding: 60px 1px;
+}
+
+.footer div p {
+  color: white;
+  font-size: 16px;
+  float: left;
+  margin: 0 0 0 100px;
+  padding: 0px;
+}
+
+.footer div ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 960px;
+}
+.footer div ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  width: 40px;
+}
