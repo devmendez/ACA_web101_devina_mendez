@@ -11,7 +11,7 @@ header {
 }
 
 main {
-  background-image: url("../src/img/mountain.jpg");
+  background-image: url("../img/mountain.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -41,8 +41,7 @@ aside {
 
 .banner {
   display: flex;
-  flex-flow: column;
-  grid-area: banner;
+  flex-flow: column wrap;
 }
 
 .banner {
@@ -84,7 +83,7 @@ footer {
     grid-template-areas:
       "header  header"
       "nav     nav"
-      "aside   main"
+      "main   aside"
       "banner  footer";
   }
 }
