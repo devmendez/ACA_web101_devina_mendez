@@ -6,63 +6,102 @@ header {
 }
 
 a:hover {
-  color: rgb(18, 187, 238);
+  text-decoration: none;
+  color: #0ba39c;
 }
+
 a {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 20px;
   color: black;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   text-decoration-style: none;
+  font-weight: bold;
+}
+button {
+  background: #0ba39c;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  margin: 15px 0 0;
+  padding: 25px 25px 20px;
+  text-align: center;
 }
 
-main {
-  background-image: url("img/the-beacon.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
+.main {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: left;
 }
 
-.beacon div h2 {
-  background-color: white;
-  color: black;
+.beaconfont {
+  position: absolute;
+  top: 80px;
+  right: 250px;
+  line-height: 1.5;
+}
+.beaconfont div {
+  background: black;
+  color: white;
+  margin: 7px 0;
+  padding: 12px 27px;
+}
+.beacon {
+  position: relative;
+}
+h2 {
+  background: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  margin: 0 0 18 px;
+  padding: 20px 25px 23px;
 }
 
-ul {
-  display: block;
-  list-style-type: disc;
+.hair-styles {
+  display: inline-block;
   list-style: none;
-  margin-block-start: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   padding-inline-start: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+.styleimg {
+  display: flex;
+  justify-content: center;
+}
+.styleimg ul {
+  padding: 0;
 }
 
 .footer {
-  background: black;
+  background: rgb(46, 43, 43);
+  padding: 36px 0px 42px;
   margin: 0;
-  padding: 60px 1px;
 }
 
 .footer div p {
   color: white;
   font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
   float: left;
-  margin: 0 0 0 100px;
-  padding: 0px;
+  line-height: 5px;
+  margin: 0 0 0 10px;
+  padding: 0;
 }
 
-.footer div ul {
+.footer div ul li {
+  display: block;
   float: right;
   margin: 0;
   padding: 0;
-  width: 960px;
+  width: 60px;
 }
-.footer div ul li {
-  display: block;
-  float: left;
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-  width: 40px;
+
+@media (min-width: 576px) {
+  body {
+    min-width: 0;
+  }
 }
