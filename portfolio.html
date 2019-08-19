@@ -4,58 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="../src/styles/portfolio-style.css" />
   </head>
   <body>
-    <header>
-      <h1>Devina Mendez</h1>
-      <p>My Projects</p>
-    </header>
-    <hr />
-    <main>
-      <div>
-        <a href="../src/hair.html"> <h3>Hair Salon</h3> </a>
-        <a href="../src/nasa.html"> <h3>Nasa Page</h3> </a>
-        <a href="../src/dashboard.html"> <h3>Dashboard</h3> </a>
-      </div>
+    <div class="container">
+      <header>
+        <h1>Devina Mendez</h1>
+        <p>My Projects</p>
+      </header>
+      <hr />
+      <main>
+        <div class="nav">
+          <a href="../src/hair.html"> <h3>Hair Salon</h3> </a>
+          <a href="../src/nasa.html"> <h3>Nasa Page</h3> </a>
+          <a href="../src/dashboard.html"> <h3>Dashboard</h3> </a>
+        </div>
 
-      <div>
-        <iframe
-          width="500"
-          height="315"
-          src="https://www.youtube.com/embed/_cU1iBXECKs"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+        <div class="iframe">
+          <iframe
+            width="500"
+            height="315"
+            src="https://www.youtube.com/embed/_cU1iBXECKs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-      <div>
-        <video src="./src/videos/theoffice.mp4"></video>
-      </div>
+        <div class="video">
+          <video src="./src/videos/theoffice.mp4"></video>
+        </div>
 
-      <div>
-        <form>
-          First name:<br />
-          <input type="text" name="firstname" /><br />
-          Last name:<br />
-          <input type="text" name="lastname" /><br />
-          Email:<br />
-          <input type="text" name="email" /> <br />
-          City/State:<br />
-          <input type="text" name="city/state" /> <br />
-          Message:<br />
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <br />
-          <input type="reset" name="reset" /> <br />
-          <input type="submit" name="submit" /> <br />
-        </form>
-      </div>
-    </main>
+        <div class="form">
+          <form>
+            First name:<br />
+            <input type="text" name="firstname" /><br />
+            Last name:<br />
+            <input type="text" name="lastname" /><br />
+            Email:<br />
+            <input type="text" name="email" /> <br />
+            City/State:<br />
+            <input type="text" name="city/state" /> <br />
+            Message:<br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <input type="reset" name="reset" /> <br />
+            <input type="submit" name="submit" /> <br />
+          </form>
+        </div>
+      </main>
 
-    <footer>
-      <h6>copyright &copy; MyPortfolio, 2019</h6>
-    </footer>
+      <footer>
+        <h6>copyright &copy; MyPortfolio, 2019</h6>
+      </footer>
+    </div>
   </body>
 </html>
