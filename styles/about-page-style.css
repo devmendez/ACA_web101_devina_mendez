@@ -1,0 +1,41 @@
+header {
+  background-color: rgb(4, 96, 150);
+  color: rgb(24, 24, 23);
+  font-family: "ZCOOL XiaoWei", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+p {
+  color: rgb(235, 228, 228);
+}
+main {
+  background-image: url("../images/ship.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100vh;
+}
+
+blockquote {
+  color: black;
+  font-weight: bold;
+}
+
+div {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  margin-top: 300px;
+  padding: 20px;
+  margin-left: 1px;
+  justify-content: space-between;
+}
+
+form {
+  color: black;
+  line-height: 0%;
+}
