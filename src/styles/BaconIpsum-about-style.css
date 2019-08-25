@@ -1,0 +1,51 @@
+header {
+  background-color: #33a8dd;
+  color: white;
+  text-align: left;
+  font-style: normal;
+  line-height: 0.5em;
+  padding-top: 100px;
+  padding-left: 150px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  opacity: 0.8;
+}
+
+main {
+  background-color: #f7f5f6;
+  margin: 0;
+  padding: 0;
+}
+
+.iframe {
+  padding: 10px 0;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    background-color: #2bcdc0;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  main {
+    background-color: black;
+    color: white;
+    height: 100%;
+  }
+  .iframe {
+    width: 100%;
+    padding: 80px;
+    padding-bottom: 30%;
+    height: 0;
+  }
+}
