@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="../src/styles/tictactoe-style.css" />
+    <link rel="stylesheet" href="../src/portfolio.html" />
+    <script src="../src/scripts/tictactoe.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <H1>Tic Tac Toe</H1>
+    </div>
+
+    <div class="table">
+      <button id="X" onclick="changeMarkerToX(this.id)">Player X</button>
+      <button id="O" onclick="changeMarkerToO(this.id)">Player O</button>
+      <table>
+        <tr>
+          <td class="TL"></td>
+          <td class="TM"></td>
+          <td class="TR"></td>
+        </tr>
+        <tr>
+          <td class="ML"></td>
+          <td class="MM"></td>
+          <td class="MR"></td>
+        </tr>
+        <tr>
+          <td class="BL"></td>
+          <td class="BM"></td>
+          <td class="BR"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
