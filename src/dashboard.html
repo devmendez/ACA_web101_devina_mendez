@@ -9,30 +9,36 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <div class="header">
         <p>July 23, 2019</p>
         <p>8:00pm</p>
       </header>
-      <nav>
+      </div>
+      <div class="nav">
         <ul>
           <li><a href="#">Calendar</a></li>
           <li><a href="#">Quote of The Day</a></li>
         </ul>
       </nav>
-      <main>
+      </div>
+      <div class="main">
         <h1>Hello My Friend</h1>
         <p>Good Evening</p>
-      </main>
+      </main> 
+      </div>
 
-      <aside>
-        ToDo List
-        <ul>
-          <li>To Do 1</li>
-          <li>To Do 2</li>
-          <li>To Do 3</li>
-          <li>To Do 4</li>
-        </ul>
+      <div class="aside">
+          <h1>To-do list</h1>
+          <ul>
+            <li class="item">Buy Movie Tickets</li>
+          </ul>
+          <div id="newItemButton"><button href="#">new item</button></div>
+          <form id="newItemForm">
+            <input type="text" id="itemField" placeholder="Item" />
+            <input type="submit" id="add" value="add" />
+          </form>
       </aside>
+      </div>
 
       <div class="banner">
         <p>Calculator</p>
@@ -56,7 +62,9 @@
           <button class="button">+</button>
         </div>
       </div>
-      <footer>copyright &copy; My Dashboard, 2019</footer>
+      <div class="footer">copyright &copy; My Dashboard, 2019</footer>
     </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="../src/scripts/todoApp.js"></script>
   </body>
 </html>
