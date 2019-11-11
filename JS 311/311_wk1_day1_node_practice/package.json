@@ -1,0 +1,28 @@
+{
+  "name": "aca-js311-node-practice",
+  "version": "1.0.0",
+  "description": "Initialize and run the app: `npm install && npm start`.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x npm run test",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmendez/311_wk1_day1_node_practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devmendez/311_wk1_day1_node_practice/issues"
+  },
+  "homepage": "https://github.com/devmendez/311_wk1_day1_node_practice#readme"
+}
