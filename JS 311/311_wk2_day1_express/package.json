@@ -1,0 +1,25 @@
+{
+  "name": "express-practice",
+  "version": "1.0.0",
+  "description": "A starter repo for the ACA Advanced `My First Web Server` project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxviteri/advanced-first-web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxviteri/advanced-first-web-server/issues"
+  },
+  "homepage": "https://github.com/mxviteri/advanced-first-web-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
